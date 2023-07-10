@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should match snapshot 1`] = `
+<div
+  class="h-screen flex flex-col px-4 py-8 md:px-32 md:py-24 bg-white w-screen md:h-auto"
+  data-testid="container"
+>
+  Container
+</div>
+`;
