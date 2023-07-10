@@ -1,5 +1,5 @@
 import { AxiosPromise, ResponseType } from "axios";
-import Storage from "../modules/Storage";
+import { API_URL } from "../constants";
 import getAxiosInstance from "./axiosConfig";
 import { httpMethod } from "./core/http.core";
 
@@ -18,7 +18,7 @@ interface IAPIUrl {
 }
 
 const APIUrl: IAPIUrl = {
-  api: "https://54e0200b-f7be-4094-b52e-49516cb14075.mock.pstmn.io",
+  api: API_URL,
 };
 
 export const requestApi = async <T>(

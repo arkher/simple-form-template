@@ -6,8 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "deploy:development": "aws s3 sync dist/ s3://cadastro-basico-dev.dev.juvocredito.com.br",
-    "deploy:production": "aws s3 sync dist/ s3://cadastro-basico-prod.juvocredito.com.br",
     "preview": "vite preview",
     "test": "jest"
   },

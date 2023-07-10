@@ -4,6 +4,10 @@ import userEvent from "@testing-library/user-event";
 import ValidatePasswordScreen from "./ValidatePasswordScreen";
 import "@testing-library/jest-dom/extend-expect";
 
+jest.mock("../../constants", () => ({
+  API_URL: "www.test.com",
+}));
+
 describe("ValidatePasswordScreen", () => {
   it("should render", () => {
     render(<ValidatePasswordScreen />);

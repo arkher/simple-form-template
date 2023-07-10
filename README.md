@@ -8,4 +8,9 @@ Neste projeto, foram utilizadas as tecnologias: `Vite js`, `React`, `typescript`
 
 Para rodar o projeto, execute os seguintes comandos:
 - Instalação de pacotes: ```npm install``` ou ```yarn```
+- Criação de um arquivo de environment: Crie um arquivo chamado ```.env``` na sua aplicação e adicione a variável ```VITE_API_URL``` a exemplo do arquivo ```.env.example``` disponível na raiz do projeto.
 - Rode o projeto: ```npm run dev``` ou ```yarn dev```
+
+## Como executar os testes
+
+Para executar os testes unitários e de snapshot, basta digitar ```npm run test``` ou ```yarn test```.
